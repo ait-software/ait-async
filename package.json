@@ -1,9 +1,8 @@
 {
   "name": "ait-async",
   "description": "A collection of small async/await utilities",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": "ait-software",
-  "license": "Apache-2.0",
   "engines": {
     "node": ">=16"
   },
@@ -32,7 +31,7 @@
     "watch": "npm run dev"
   },
   "devDependencies": {
-    "eslint-config-armor": "git+https://ait-software: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@github.com/ait-software/eslint-config-armor.git",
+    "eslint-config-armor": "*",
     "@types/bluebird": "^3.5.37",
     "@types/lodash": "^4.14.189",
     "@types/node": "^20.4.7",
